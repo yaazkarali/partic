@@ -1,0 +1,332 @@
+# EpicTrails – Trail Styles & Particle Types
+# Each style entry defines display metadata and which particles are available.
+# The 'particles' section lists all particle types the plugin recognises,
+# with display metadata for the GUI.
+
+styles:
+  SPIRAL:
+    display-name: "<gradient:#ff6b35:#ffd700>Spiral</gradient>"
+    description:
+      - "<gray>Particles form a graceful"
+      - "<gray>helical spiral as you walk."
+    icon: BLAZE_ROD
+    permission: epictrails.style.spiral
+
+  DOUBLE_HELIX:
+    display-name: "<gradient:#7b2fff:#ff6b35>Double Helix</gradient>"
+    description:
+      - "<gray>Two interleaved helices"
+      - "<gray>twist around your path."
+    icon: NAUTILUS_SHELL
+    permission: epictrails.style.double_helix
+
+  ORBIT:
+    display-name: "<gradient:#00cfff:#7b2fff>Orbit</gradient>"
+    description:
+      - "<gray>Particles orbit around you"
+      - "<gray>in a continuous ring."
+    icon: ENDER_EYE
+    permission: epictrails.style.orbit
+
+  PULSE:
+    display-name: "<gradient:#ff4fd8:#ff6b35>Pulse</gradient>"
+    description:
+      - "<gray>A pulsing sphere of particles"
+      - "<gray>radiates from your body."
+    icon: MAGMA_CREAM
+    permission: epictrails.style.pulse
+
+  FLAME:
+    display-name: "<gradient:#ff6b35:#ffcc00>Flame</gradient>"
+    description:
+      - "<gray>Rising embers and flames"
+      - "<gray>erupt from your feet."
+    icon: FIRE_CHARGE
+    permission: epictrails.style.flame
+
+  WING:
+    display-name: "<gradient:#ffffff:#00cfff>Wing</gradient>"
+    description:
+      - "<gray>Sweeping wings of particles"
+      - "<gray>spread from your shoulders."
+    icon: FEATHER
+    permission: epictrails.style.wing
+
+  COMET:
+    display-name: "<gradient:#ffd700:#ffffff>Comet</gradient>"
+    description:
+      - "<gray>A blazing comet tail"
+      - "<gray>streams behind you."
+    icon: NETHER_STAR
+    permission: epictrails.style.comet
+
+  ENCHANT:
+    display-name: "<gradient:#4b0082:#9b59b6>Enchant</gradient>"
+    description:
+      - "<gray>Mystical runes and sparkles"
+      - "<gray>swirl around your form."
+    icon: ENCHANTED_BOOK
+    permission: epictrails.style.enchant
+
+  VORTEX:
+    display-name: "<gradient:#00ffab:#00cfff>Vortex</gradient>"
+    description:
+      - "<gray>A swirling vortex of energy"
+      - "<gray>surrounds you at all times."
+    icon: LIGHTNING_ROD
+    permission: epictrails.style.vortex
+
+particles:
+  FLAME:
+    display-name: "<gradient:#ff6b35:#ffcc00>Flame</gradient>"
+    icon: FIRE_CHARGE
+    type: FLAME
+
+  SOUL_FIRE_FLAME:
+    display-name: "<gradient:#00cfff:#4b0082>Soul Fire</gradient>"
+    icon: SOUL_LANTERN
+    type: SOUL_FIRE_FLAME
+
+  LAVA:
+    display-name: "<gradient:#ff4500:#ff8c00>Lava</gradient>"
+    icon: LAVA_BUCKET
+    type: LAVA
+
+  SMOKE:
+    display-name: "<gray>Smoke</gray>"
+    icon: GRAY_DYE
+    type: SMOKE
+
+  LARGE_SMOKE:
+    display-name: "<dark_gray>Large Smoke</dark_gray>"
+    icon: COAL
+    type: LARGE_SMOKE
+
+  PORTAL:
+    display-name: "<gradient:#4b0082:#7b2fff>Portal</gradient>"
+    icon: ENDER_PEARL
+    type: PORTAL
+
+  ENCHANT:
+    display-name: "<gradient:#4b0082:#9b59b6>Enchant</gradient>"
+    icon: ENCHANTED_BOOK
+    type: ENCHANT
+
+  FIREWORK:
+    display-name: "<gradient:#ff6b35:#ffd700>Firework</gradient>"
+    icon: FIREWORK_ROCKET
+    type: FIREWORK
+
+  HEART:
+    display-name: "<red>Heart</red>"
+    icon: RED_DYE
+    type: HEART
+
+  CRIT:
+    display-name: "<yellow>Crit</yellow>"
+    icon: IRON_SWORD
+    type: CRIT
+
+  MAGIC_CRIT:
+    display-name: "<gradient:#7b2fff:#00cfff>Magic Crit</gradient>"
+    icon: DIAMOND_SWORD
+    type: MAGIC_CRIT
+
+  NOTE:
+    display-name: "<gradient:#ffd700:#ff6b35>Note</gradient>"
+    icon: NOTE_BLOCK
+    type: NOTE
+
+  BUBBLE:
+    display-name: "<gradient:#00cfff:#ffffff>Bubble</gradient>"
+    icon: WATER_BUCKET
+    type: BUBBLE
+
+  SNOWFLAKE:
+    display-name: "<white>Snowflake</white>"
+    icon: SNOWBALL
+    type: SNOWFLAKE
+
+  TOTEM_OF_UNDYING:
+    display-name: "<gradient:#ffd700:#00ff7f>Totem</gradient>"
+    icon: TOTEM_OF_UNDYING
+    type: TOTEM_OF_UNDYING
+
+  WITCH:
+    display-name: "<gradient:#4b0082:#7b2fff>Witch</gradient>"
+    icon: WITCH_SPAWN_EGG
+    type: WITCH
+
+  ANGRY_VILLAGER:
+    display-name: "<red>Angry Villager</red>"
+    icon: IRON_DOOR
+    type: ANGRY_VILLAGER
+
+  HAPPY_VILLAGER:
+    display-name: "<green>Happy Villager</green>"
+    icon: EMERALD
+    type: HAPPY_VILLAGER
+
+  SPLASH:
+    display-name: "<gradient:#00cfff:#7b2fff>Splash</gradient>"
+    icon: SPLASH_POTION
+    type: SPLASH
+
+  RAIN:
+    display-name: "<gradient:#00cfff:#1e90ff>Rain</gradient>"
+    icon: BLUE_DYE
+    type: RAIN
+
+  INSTANT_EFFECT:
+    display-name: "<gradient:#ff4fd8:#ffffff>Instant Effect</gradient>"
+    icon: GLASS_BOTTLE
+    type: INSTANT_EFFECT
+
+  EFFECT:
+    display-name: "<gradient:#ff6b35:#ffd700>Effect</gradient>"
+    icon: POTION
+    type: EFFECT
+
+  DAMAGE_INDICATOR:
+    display-name: "<dark_red>Damage Indicator</dark_red>"
+    icon: BONE
+    type: DAMAGE_INDICATOR
+
+  SWEEP_ATTACK:
+    display-name: "<gradient:#aaaaaa:#ffffff>Sweep Attack</gradient>"
+    icon: IRON_AXE
+    type: SWEEP_ATTACK
+
+  DUST_RED:
+    display-name: "<red>Dust – Red</red>"
+    icon: RED_DYE
+    type: DUST
+    color: "255,0,0"
+    size: 1.5
+
+  DUST_BLUE:
+    display-name: "<blue>Dust – Blue</blue>"
+    icon: BLUE_DYE
+    type: DUST
+    color: "0,0,255"
+    size: 1.5
+
+  DUST_GREEN:
+    display-name: "<green>Dust – Green</green>"
+    icon: GREEN_DYE
+    type: DUST
+    color: "0,255,0"
+    size: 1.5
+
+  DUST_YELLOW:
+    display-name: "<yellow>Dust – Yellow</yellow>"
+    icon: YELLOW_DYE
+    type: DUST
+    color: "255,223,0"
+    size: 1.5
+
+  DUST_PURPLE:
+    display-name: "<gradient:#7b2fff:#4b0082>Dust – Purple</gradient>"
+    icon: PURPLE_DYE
+    type: DUST
+    color: "123,47,255"
+    size: 1.5
+
+  DUST_WHITE:
+    display-name: "<white>Dust – White</white>"
+    icon: WHITE_DYE
+    type: DUST
+    color: "255,255,255"
+    size: 1.5
+
+  DUST_PINK:
+    display-name: "<light_purple>Dust – Pink</light_purple>"
+    icon: PINK_DYE
+    type: DUST
+    color: "255,100,200"
+    size: 1.5
+
+  SOUL:
+    display-name: "<gradient:#00cfff:#ffffff>Soul</gradient>"
+    icon: SOUL_SAND
+    type: SOUL
+
+  ASH:
+    display-name: "<gray>Ash</gray>"
+    icon: GRAY_CONCRETE_POWDER
+    type: ASH
+
+  WHITE_ASH:
+    display-name: "<white>White Ash</white>"
+    icon: WHITE_CONCRETE_POWDER
+    type: WHITE_ASH
+
+  CRIMSON_SPORE:
+    display-name: "<gradient:#ff0000:#7b0000>Crimson Spore</gradient>"
+    icon: CRIMSON_FUNGUS
+    type: CRIMSON_SPORE
+
+  WARPED_SPORE:
+    display-name: "<gradient:#00ffab:#004d3d>Warped Spore</gradient>"
+    icon: WARPED_FUNGUS
+    type: WARPED_SPORE
+
+  SPORE_BLOSSOM_AIR:
+    display-name: "<gradient:#ff69b4:#ff1493>Spore Blossom</gradient>"
+    icon: SPORE_BLOSSOM
+    type: SPORE_BLOSSOM_AIR
+
+  DRIPPING_HONEY:
+    display-name: "<gradient:#ffa500:#8b4513>Dripping Honey</gradient>"
+    icon: HONEY_BOTTLE
+    type: DRIPPING_HONEY
+
+  FALLING_HONEY:
+    display-name: "<gradient:#ffa500:#daa520>Falling Honey</gradient>"
+    icon: HONEYCOMB
+    type: FALLING_HONEY
+
+  LANDING_HONEY:
+    display-name: "<gradient:#daa520:#8b4513>Landing Honey</gradient>"
+    icon: HONEYCOMB_BLOCK
+    type: LANDING_HONEY
+
+  SNEEZE:
+    display-name: "<green>Sneeze</green>"
+    icon: SLIME_BALL
+    type: SNEEZE
+
+  MYCELIUM:
+    display-name: "<gradient:#9b59b6:#8b4513>Mycelium</gradient>"
+    icon: MYCELIUM
+    type: MYCELIUM
+
+  CAMPFIRE_COSY_SMOKE:
+    display-name: "<gray>Campfire Smoke</gray>"
+    icon: CAMPFIRE
+    type: CAMPFIRE_COSY_SMOKE
+
+  CAMPFIRE_SIGNAL_SMOKE:
+    display-name: "<dark_gray>Signal Smoke</dark_gray>"
+    icon: SOUL_CAMPFIRE
+    type: CAMPFIRE_SIGNAL_SMOKE
+
+  DOLPHIN:
+    display-name: "<gradient:#00cfff:#1e90ff>Dolphin</gradient>"
+    icon: DOLPHIN_SPAWN_EGG
+    type: DOLPHIN
+
+  NAUTILUS:
+    display-name: "<gradient:#00cfff:#7b2fff>Nautilus</gradient>"
+    icon: NAUTILUS_SHELL
+    type: NAUTILUS
+
+  ELECTRIC_SPARK:
+    display-name: "<gradient:#ffd700:#ffffff>Electric Spark</gradient>"
+    icon: LIGHTNING_ROD
+    type: ELECTRIC_SPARK
+
+  SCRAPE:
+    display-name: "<gradient:#b0e0e6:#add8e6>Scrape</gradient>"
+    icon: IRON_AXE
+    type: SCRAPE

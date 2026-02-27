@@ -1,0 +1,64 @@
+# EpicTrails Configuration
+# Full documentation: https://github.com/yaazkarali/partic
+
+# Storage backend: sqlite or mysql
+storage:
+  type: sqlite
+  # SQLite options
+  sqlite:
+    file: trails.db
+  # MySQL options
+  mysql:
+    host: localhost
+    port: 3306
+    database: epictrails
+    username: root
+    password: password
+    pool-size: 10
+    min-idle: 2
+    connection-timeout: 30000
+    idle-timeout: 600000
+    max-lifetime: 1800000
+    properties:
+      cachePrepStmts: "true"
+      prepStmtCacheSize: "250"
+      prepStmtCacheSqlLimit: "2048"
+      useSSL: "false"
+      allowPublicKeyRetrieval: "true"
+      characterEncoding: "utf8"
+
+# Trail rendering settings
+trails:
+  # Tick interval between particle bursts (lower = smoother, more CPU)
+  tick-interval: 2
+  # Maximum distance (blocks) at which players can see trails
+  view-distance: 48
+  # Whether trails are shown to the trail owner themselves
+  show-to-self: true
+  # Disable trails in PvP zones (requires WorldGuard)
+  disable-in-pvp: false
+  # Disable trails for vanished players (requires SuperVanish/PremiumVanish/CMI)
+  disable-for-vanished: true
+  # Disable trails while a player is in combat
+  disable-in-combat: false
+  # Combat tag duration in seconds
+  combat-tag-seconds: 10
+
+# GUI settings
+gui:
+  # Rows in the trail selector chest GUI (3–6)
+  selector-rows: 6
+  # Fill empty slots with a glass pane
+  fill-empty-slots: true
+  fill-material: GRAY_STAINED_GLASS_PANE
+
+# Permission settings
+permissions:
+  # If true, trail styles/particles gate by 'epictrails.style.<name>' permissions
+  use-style-permissions: true
+  # If true, individual particle types gate by 'epictrails.particle.<name>' permissions
+  use-particle-permissions: false
+  # Default trail style on first join (must match a key in trails.yml)
+  default-style: SPIRAL
+  # Default particle on first join (must match a key in trails.yml particles section)
+  default-particle: FLAME

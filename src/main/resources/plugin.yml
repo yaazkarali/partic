@@ -1,0 +1,55 @@
+name: EpicTrails
+version: '${project.version}'
+main: com.epictrails.EpicTrails
+api-version: '1.21'
+description: A feature-rich cosmetic trails plugin with PacketEvents-based particle rendering.
+authors:
+  - EpicTrails Team
+website: https://github.com/yaazkarali/partic
+
+commands:
+  trail:
+    description: Open the trail selector or manage your trail.
+    usage: /trail [style|particle|toggle|reset|reload] [value]
+    permission: epictrails.use
+    aliases:
+      - trails
+      - etrail
+
+permissions:
+  epictrails.use:
+    description: Allows the player to use the trail selector.
+    default: true
+  epictrails.admin:
+    description: Allows access to admin commands (reload, etc.).
+    default: op
+  epictrails.reload:
+    description: Allows the player to reload the plugin configuration.
+    default: op
+  epictrails.style.spiral:
+    description: Allows use of the Spiral trail style.
+    default: true
+  epictrails.style.double_helix:
+    description: Allows use of the Double Helix trail style.
+    default: true
+  epictrails.style.orbit:
+    description: Allows use of the Orbit trail style.
+    default: true
+  epictrails.style.pulse:
+    description: Allows use of the Pulse trail style.
+    default: true
+  epictrails.style.flame:
+    description: Allows use of the Flame trail style.
+    default: true
+  epictrails.style.wing:
+    description: Allows use of the Wing trail style.
+    default: true
+  epictrails.style.comet:
+    description: Allows use of the Comet trail style.
+    default: true
+  epictrails.style.enchant:
+    description: Allows use of the Enchant trail style.
+    default: true
+  epictrails.style.vortex:
+    description: Allows use of the Vortex trail style.
+    default: true
