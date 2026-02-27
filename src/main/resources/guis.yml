@@ -1,0 +1,67 @@
+# EpicTrails GUI Configuration
+
+# Main selector GUI (opens on /trail with no args)
+main-gui:
+  title: "<gradient:#ff6b35:#ffd700>✦ Trail Selector ✦</gradient>"
+  rows: 6
+  items:
+    style-selector:
+      slot: 20
+      material: BLAZE_ROD
+      display-name: "<gradient:#ff6b35:#ffd700>✦ Trail Styles</gradient>"
+      lore:
+        - "<gray>Browse and select your"
+        - "<gray>preferred trail style."
+        - ""
+        - "<yellow>Click to open!"
+    particle-selector:
+      slot: 24
+      material: NETHER_STAR
+      display-name: "<gradient:#00cfff:#7b2fff>✦ Particle Types</gradient>"
+      lore:
+        - "<gray>Choose the particle that"
+        - "<gray>makes up your trail."
+        - ""
+        - "<yellow>Click to open!"
+    toggle:
+      slot: 40
+      display-name-on: "<green>● Trail: ON"
+      display-name-off: "<red>● Trail: OFF"
+      material-on: LIME_DYE
+      material-off: RED_DYE
+      lore-on:
+        - "<gray>Your trail is currently <green>enabled</green>."
+        - ""
+        - "<yellow>Click to disable."
+      lore-off:
+        - "<gray>Your trail is currently <red>disabled</red>."
+        - ""
+        - "<yellow>Click to enable."
+    close:
+      slot: 49
+      material: BARRIER
+      display-name: "<red>✖ Close"
+      lore:
+        - "<gray>Close this menu."
+
+# Style selector GUI
+style-gui:
+  title: "<gradient:#7b2fff:#ff6b35>✦ Trail Styles ✦</gradient>"
+  rows: 6
+  back-slot: 49
+  prev-page-slot: 45
+  next-page-slot: 53
+
+# Particle selector GUI
+particle-gui:
+  title: "<gradient:#00cfff:#7b2fff>✦ Particle Types ✦</gradient>"
+  rows: 6
+  back-slot: 49
+  prev-page-slot: 45
+  next-page-slot: 53
+
+# Shared filler pane (used in all GUIs)
+filler:
+  material: GRAY_STAINED_GLASS_PANE
+  display-name: " "
+  lore: []

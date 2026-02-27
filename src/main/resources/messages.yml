@@ -1,0 +1,48 @@
+# EpicTrails Messages
+# Supports MiniMessage, legacy (&) and hex (#RRGGBB) color codes.
+
+prefix: "<gradient:#ff6b35:#ffd700>[EpicTrails]</gradient> "
+
+no-permission: "<red>You do not have permission to do that."
+player-only: "<red>This command can only be run by a player."
+unknown-command: "<red>Unknown subcommand. Use <yellow>/trail help</yellow> for help."
+
+trail-enabled: "<green>Your trail has been <bold>enabled</bold>."
+trail-disabled: "<yellow>Your trail has been <bold>disabled</bold>."
+trail-reset: "<gray>Your trail settings have been reset to defaults."
+
+style-changed: "<green>Trail style set to <yellow><style></yellow>."
+particle-changed: "<green>Trail particle set to <yellow><particle></yellow>."
+style-not-found: "<red>Unknown trail style: <yellow><style></yellow>. Check <white>/trail help</white>."
+particle-not-found: "<red>Unknown particle: <yellow><particle></yellow>. Check <white>/trail help</white>."
+style-no-permission: "<red>You do not have permission to use the <yellow><style></yellow> trail style."
+particle-no-permission: "<red>You do not have permission to use the <yellow><particle></yellow> particle."
+
+config-reloaded: "<green>Configuration reloaded successfully."
+db-error: "<red>A database error occurred. Please try again or contact an administrator."
+
+pvp-disabled: "<yellow>Your trail has been hidden while in a PvP zone."
+pvp-enabled: "<green>Your trail is visible again."
+vanish-hidden: "<gray>Your trail is hidden while you are vanished."
+
+help-header: "<gradient:#ff6b35:#ffd700>--- EpicTrails Help ---</gradient>"
+help-gui: "<yellow>/trail</yellow> <gray>- Open the trail selector GUI."
+help-style: "<yellow>/trail style <name></yellow> <gray>- Set your trail style."
+help-particle: "<yellow>/trail particle <name></yellow> <gray>- Set your trail particle."
+help-toggle: "<yellow>/trail toggle</yellow> <gray>- Toggle your trail on/off."
+help-reset: "<yellow>/trail reset</yellow> <gray>- Reset your trail to defaults."
+help-reload: "<yellow>/trail reload</yellow> <gray>- (Admin) Reload configuration."
+
+gui-title: "<gradient:#ff6b35:#ffd700>✦ Trail Selector ✦</gradient>"
+gui-style-title: "<gradient:#7b2fff:#ff6b35>✦ Trail Styles ✦</gradient>"
+gui-particle-title: "<gradient:#00cfff:#7b2fff>✦ Particle Types ✦</gradient>"
+gui-back: "<gray>← Back"
+gui-next-page: "<gray>Next Page →"
+gui-prev-page: "<gray>← Previous Page"
+gui-toggle-on: "<green>● Trail: ON"
+gui-toggle-off: "<red>● Trail: OFF"
+gui-selected: "<green>✔ Selected"
+gui-click-select: "<yellow>Click to select."
+gui-no-permission: "<red>✘ No Permission"
+gui-current-style: "<gray>Current Style: <yellow><style>"
+gui-current-particle: "<gray>Current Particle: <yellow><particle>"
